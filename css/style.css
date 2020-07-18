@@ -1,0 +1,21 @@
+html,body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: #212121;
+}
+.navbar {
+    background-color: #121212;
+}
+#home {
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
