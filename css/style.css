@@ -19,3 +19,10 @@ body {
     text-align: center;
     vertical-align: middle;
 }
+
+
+.wiki-header {
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
