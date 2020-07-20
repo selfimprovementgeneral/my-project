@@ -8,6 +8,8 @@ body {
 div {
 
 }
+
+
 .navbar {
     background-color: #121212;
 }
@@ -25,7 +27,13 @@ div {
 
 .sidebar {
     min-height: calc(100vh - 60px);
-    border-right: 1px dashed #ffffff;
+    border-right: 1px solid #ffffff;
+}
+
+.sidebar-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .wiki-header {
@@ -34,3 +42,7 @@ div {
     vertical-align: top;
 }
 
+.wiki-link {
+    color: white;
+    text-decoration: underline;
+}
