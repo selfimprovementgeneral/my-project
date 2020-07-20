@@ -5,6 +5,9 @@ html,body {
 body {
     background-color: #212121;
 }
+div {
+
+}
 .navbar {
     background-color: #121212;
 }
@@ -20,9 +23,14 @@ body {
     vertical-align: middle;
 }
 
+.sidebar {
+    min-height: calc(100vh - 60px);
+    border-right: 1px dashed #ffffff;
+}
 
 .wiki-header {
     display: table-cell;
     text-align: left;
     vertical-align: top;
 }
+
