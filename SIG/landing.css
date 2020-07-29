@@ -1,0 +1,46 @@
+#site-name {
+    color: gray;
+    text-align: center;
+    font-size: 175pt;
+    margin-bottom: 0pt;
+    margin-top: 0pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#reflection {
+    color: gray;
+    text-align: center;
+    font-size: 175pt;
+    margin-bottom: 0pt;
+    margin-top: 0pt;
+    font-family: Arial, Helvetica, sans-serif;
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    -webkit-mask-image: -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(20%, transparent), to(rgba(0, 0, 0, 0.4)));
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 50pt;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+blockquote {
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#server-link {
+    text-align: center;
+}
